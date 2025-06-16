@@ -89,7 +89,7 @@ window.onload = function() {
 	window.tmp = {};
 	window.installedTitles = {
 		"cmd.exe" : "cmd",
-		"Internet Explored" : "ie",
+		"NOT Internet Explorer" : "ie",
 		"Paint" : "paint",
 		"Notepad" : "notepad",
 
@@ -123,7 +123,7 @@ window.onload = function() {
 		},
 		"ie": {
 			key: "ie",
-			title: "Internet Explored",
+			title: "NOT Internet Explorer",
 			source: "apps/ie.html",
 			type: "full",
 			icon : "/resources/internet.png",
